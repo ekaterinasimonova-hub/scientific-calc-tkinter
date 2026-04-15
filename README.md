@@ -35,8 +35,6 @@ This is a Python script for a modern scientific calculator with a sleek, dark‑
 * an indicator for angle mode (DEG);
 * intuitive layout and responsive design.
 
----
-
 #### 🚀 How to Use It
 
 1. Run the `modern_scientific_calculator.py` script using Python.
@@ -56,8 +54,6 @@ This is a Python script for a modern scientific calculator with a sleek, dark‑
    * Use «Clear All» to erase the entire history.
    * Click «⌨️ Calculator» to return to the main calculator view.
 
----
-
 #### 🔍 Known Issues & Limitations
 
 * **Security Risk with `eval`:** The calculator uses `eval()` to perform calculations, which can be unsafe with untrusted input. A safer parser should be implemented for production use.
@@ -68,8 +64,6 @@ This is a Python script for a modern scientific calculator with a sleek, dark‑
 * **Performance:** Complex calculations or very large numbers may cause temporary UI freezes without a progress indicator.
 * **Fixed Window Size:** The window size is fixed (500×650 px), which may not be optimal for all screen sizes.
 * **Limited Error Context:** Error messages are generic («Error») and don’t specify the exact issue.
-
----
 
 #### 🛫 Try It Yourself
 
@@ -87,5 +81,4 @@ This is a Python script for a modern scientific calculator with a sleek, dark‑
    * Clear everything with «C» or by restarting.
    * Observe how the display updates in real time.
 
-See how the code connects the UI elements to the calculation logic and enjoy your new modern scientific tool!
 
